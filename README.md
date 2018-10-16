@@ -1,0 +1,2 @@
+# novatraderex
+novatraderex系统
