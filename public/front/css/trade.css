@@ -1,0 +1,36 @@
+@media (max-width: 414px) {
+    body .contant>div:first-child h2{ margin-left: 15px; font-size:18px;  }
+    body .contant .box0 .list0>div:first-child .bit0{  height: 80px; font-size: 28px; line-height: 80px; padding-left: 90px;
+        background-position: 10px center; background-size: 70px; }
+    body .contant .box0 .list0>div:last-child{ height:inherit; line-height: 80px; }
+    body .contant .box0>.list0:nth-child(2)>div:first-child .bit0{ background-position: 10px center;background-size: 70px; }
+    body .contant .box0>.list0:nth-child(3)>div:first-child .bit0{ background-position: 10px center; background-size: 70px; }
+    body .contant .box0>.list0:nth-child(4)>div:first-child .bit0{background-position: 10px center; background-size: 70px; }
+
+
+}
+
+
+/*trade.html*/
+.contant{ max-width: 1200px; margin: 0 auto;}
+.contant>div:first-child{ }
+.contant>div:first-child h2{ margin-top: 39px; padding-left: 48px; background: url("../images/trade/coin.png") no-repeat left center; height: 40px; line-height: 40px; }
+.contant>div:first-child p{ height: 57px; line-height: 57px; padding-left: 48px;}
+.contant>div:first-child p a{ padding: 0 10px; color: #3377ff;}
+.contant>div:first-child p a.xian{border-right: 1px solid #d0d0d0;}
+.contant .box0{ }
+.contant .box0 .list0{ border: 1px solid #e6e6e6; margin-bottom: 36px;}
+.contant .box0 .list0>div:first-child{ background: #f5f5f5; border-bottom:1px solid #e6e6e6;  }
+.contant .box0 .list0>div:first-child .bit0{  height: 120px; font-size: 36px; line-height: 120px; padding-left: 10px; }
+.conant .box0 .list0>div:last-child{ height: 110px; line-height: 110px; }
+.contant .box0 .list0>div:last-child span{ margin: 0 20px; padding-right: 20px; padding-left: 10px; display: inline-block; height: 60px; line-height: 60px; border: 1px solid #3377ff; border-radius: 6px; }
+.contant .box0 .list0>div{display: flex;align-items: center}
+.contant .box0 .list0>div .to_currency_c{margin-top:15px!important;margin-bottom:15px!important;}
+.contant .box0 .list0>div:last-child span a{ font-size: 16px; color: #3377ff; font-weight: 600; }
+.contant .box0 .list0>div .currency_img{ width:64px;height:64px;margin-left: 15px;}
+.contant .box0 .list0>div .to_currency_img{ width:40px;height:40px;margin-right:10px;}
+
+
+
+
+

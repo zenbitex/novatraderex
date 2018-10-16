@@ -1,0 +1,136 @@
+.panel{
+    margin-bottom: 34px;
+}
+.m_title{
+    display: flex;
+    align-items: center;
+    margin: 40px 0 30px 0
+}
+.m_title div{
+    margin-right: 5px;
+}
+.m_icon{
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.m_line{
+    font-size:24px;
+}
+.m_text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.ope{
+    font-size: 26px;
+}
+.ope a{
+    margin-right: 8px;
+}
+.transaction .panel-heading,.record .panel-heading{
+    background-color: #E6E6E6;
+    height: 60px;
+    line-height: 36px;
+    font-size: 22px;
+}
+.transaction table{
+    width: 100%;
+}
+.transaction table input{
+    box-sizing: border-box;
+}
+.transaction table tr{
+    display: flex;
+    height: 54px;
+    align-items: center;
+}
+.transaction table tr>td:nth-child(1) {
+    width: 70px;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 20px;
+}
+.transaction table tr>td:nth-child(2) {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+.transaction table tr>td:nth-child(3) {
+    width: 40px;
+    text-align: right;
+    font-size: 16px;
+}
+.record .record_table{
+    height: 315px;
+    overflow: hidden;
+}
+.record table{
+    margin-bottom: 0;
+}
+.record table tr td{
+    text-align: center;
+}
+.record table tbody tr td:not(:last-child){
+    color:#3377ff;
+}
+.record .panel-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background-color:rgba(0,0,0,.5)
+}
+.font_succ{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background:url(../images/market/true.png);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.font_err{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background:url(../images/market/err.png);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.modal .modal-header{
+    border: 0;
+}
+.modal .modal-body{
+    text-align: center;
+}
+.modal .modal-body p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.modal .modal-footer{
+    border: 0;
+    text-align: center;
+}
+@media (max-width:380px) {
+    .m_text{
+        font-size: 20px;
+    }
+    .panel-heading h3{
+        font-size: 18px;
+    }
+}
+@media (max-width:330px) {
+    .m_icon{
+        background-position: 0 8px;
+    }
+    .chart{
+        font-size: 16px!important;
+    }
+    .buy{
+        font-size: 14px!important;
+    }
+    .sell{
+        font-size: 14px!important;
+    }
+}

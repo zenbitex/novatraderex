@@ -1,0 +1,61 @@
+@media(max-width: 959px){
+   body .contant.help .navv{ margin-bottom: 10px; }
+   body .contant.help .navv li{ flex-direction:column; justify-content:center;align-items: center; }
+   body .contant.help .navv li div{ height: 46px;line-height: 46px; display: inline-block; width:80%;  text-align: center; }
+   body .contant.help .navv li>div:last-child{ width:80%;}
+   .contant .box2 h4{ margin-left: 15px;}
+   body .contant.help .list3{ padding:28px 10px;  }
+   .contant .box2{ padding-bottom: 50px!important; }
+}
+@media(max-width:768px){
+   .table2{ width: 100%; overflow: scroll; }
+   .contant div.table2 ul li>div a{ display: block; text-align: center; }
+   .table2 ul{ min-width: 660px; }
+   .table2 ul li{ min-width: 660px; }
+   .table2.table3 ul{ min-width: 885px; }
+   .table2.table3 ul li{ min-width:885px; }
+}
+
+
+
+
+.contant{ background: #f5f5f5; margin-top: 38px;}
+.contant .box2{ max-width: 1200px; margin: 0 auto; padding-top: 15px;padding-bottom: 192px;}
+.contant .box2 h4{ font-size: 26px; height: 72px; line-height: 72px; padding-left: 50px; background: url("../images/trade/coin2.png") no-repeat left center; }
+.contant div.table2 ul{ background: #fff;}
+.contant div.table2 ul li{ border-bottom: 1px solid #e6e6e6; display: flex; flex-direction: row; justify-content: space-between; }
+.contant div.table2 ul li>div{ height: 100px; line-height: 100px; width: 15%; }
+.contant div.table2 ul li>div a{ color: #3377ff; }
+div.table2 ul>li:first-child div{ text-align: left; background: #3377ff; color: #fff; height: 65px; line-height: 65px; font-size: 16px; }
+.contant div.table2 ul li>div:first-child{ text-align: center; }
+.contant div.table2 ul li>div:nth-child(2){ width: 25%; }
+.contant div.table2 ul li>div.red{color:#ff5858;  }
+.contant div.table2 ul li>div.greed{ color: #5ee258; }
+.contant div.table2 ul li:nth-child(2n)>div:nth-child(3) span{padding-left:40px; display: inline-block; height: 100px; line-height: 100px; background: url("../images/index/bit.png") no-repeat left center;    }
+.table2 ul li:nth-child(3)>div:nth-child(3) span,.table2 ul li:nth-child(5)>div:nth-child(3) span{ display: inline-block; height: 100px; line-height: 100px;padding-left:40px; background: url("../images/index/bit2.png") no-repeat left center;    }
+#wrap-foot{ padding-top: 42px;}
+
+.table3{ }
+.contant div.table2.table3 ul li>div{width: 14%; }
+.contant div.table2.table3 ul li>div:nth-child(2){ width: 16%; }
+
+/*Help.html*/
+.contant.help{ }
+.contant.help .box2 h4{background: url("../images/trade/coin5.png") no-repeat left center;  }
+.contant.help .navv{ }
+.contant.help .navv li{ display: flex; flex-direction: row; justify-content: space-between; }
+.contant.help .navv li div{ cursor: pointer; font-size: 18px; width: 13%; color: #fff; background: #3377ff; height: 60px; line-height: 60px; text-align: center; }
+.contant.help .navv li>div:last-child{ width: 22%;}
+.contant.help .navv li div.activv{ color:#3377ff; background: #fff;  }
+.contant.help .list3{ background: #fff; padding: 28px;}
+.contant.help .list3 .lis{ padding-bottom: 30px; display: none; }
+.contant.help .list3 .lis h3{ font-size: 22px; height: 50px; line-height: 50px; }
+.contant.help .list3 .lis ul{ }
+.contant.help .list3 .lis ul li{ height: 40px;line-height: 40px; }
+.contant.help .list3 .lis ul li a{ color: #3377ff; text-decoration:underline!important; }
+.contant.help .list3 .lis p{ line-height: 30px; padding: 8px 0;}
+
+.contant.help .list3>div.lis:nth-child(5){ display: block; }
+
+
+

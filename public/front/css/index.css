@@ -1,0 +1,678 @@
+@media (max-width: 1250px) {
+    body {
+        width: 100%;
+    }
+
+    #wrap-header .header {
+        padding: 0 15px;
+    }
+
+    #wrap-header .header .right .guojia > div {
+        margin-left: 10px;
+    }
+
+    .contant .wallets h3 {
+        margin-left: 48px;
+    }
+
+    #wrap-header .right .nav > ul > li {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1204px) {
+    #wrap-header .header .right .guojia > div {
+        margin-left: 8px;
+    }
+
+    #wrap-header .right .nav > ul > li {
+        margin-right: 8px;
+    }
+
+    #wrap-header .right .nav > ul > li a {
+        padding-left: 23px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .header {
+        display: none !important;
+    }
+
+    #hearter-phone {
+        display: block !important;
+    }
+
+    #wrap-header {
+        height: inherit !important;
+    }
+
+    body .contant .wallets .wenzi > div:first-child {
+        font-size: 20px;
+    }
+
+    body .contant .wallets .wenzi > div:nth-child(3) {
+        font-size: 20px;
+    }
+
+    /*表格*/
+    .contant .bitcoin .box > ul li .btnn a {
+        margin-left: 12px;
+    }
+
+    .contant .bitcoin ul li .doww > span {
+        padding-left: 16px;
+        background: url("../images/index/la.png") no-repeat 70px center;
+        width: 96px;
+    }
+
+    .contant .bitcoin .doww span > ul li span {
+        width: 90px;
+        padding-left: 50px;
+    }
+
+    .contant .bitcoin .box > ul li > div:first-child {
+        width: 32% !important;
+    }
+
+    .contant .bitcoin .box > ul li > div:nth-child(2) {
+        width: 20% !important;
+    }
+
+    .contant .bitcoin .box > ul li > div:nth-child(3) {
+        width: 16% !important;
+    }
+
+    .contant .bitcoin .box > ul li > div:nth-child(4) {
+        width: 16% !important;
+    }
+
+    .contant .bitcoin .box > ul li > div:nth-child(5) {
+        width: 16% !important;
+    }
+
+    .box{
+        width: 96%; overflow-x: scroll;
+    }
+    .box::-webkit-scrollbar-track{
+        border-radius: 10px;
+        background-color: #ACE2FF;
+    }
+    .box::-webkit-scrollbar{
+        width: 0px;
+        height: 10px;
+    }
+    .box::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: #3377ff;
+    }
+
+    .box > ul {
+        min-width: 670px;
+    }
+
+    .box > ul > li {
+        min-width: 670px;
+    }
+}
+
+@media (max-width: 414px) {
+    body .contant .wallets {
+        text-align: center;
+    }
+
+    body .contant .wallets h3 {
+        margin-top: 20px;
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 38px;
+        background: url("../images/index/icon$.png") no-repeat left center;
+        font-size: 24px;
+        margin-left: 0px;
+    }
+
+    body .contant .wallets .wenzi {
+        padding: 0 8px;
+    }
+
+    body .contant .wallets .wenzi > div:first-child {
+        height: inherit;
+        line-height: 48px;
+    }
+
+    body .contant .wallets .wenzi > div:nth-child(3) {
+        height: inherit;
+        line-height: 48px;
+    }
+
+    body .contant .wallets .wenzi > div span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        margin: 10px 0;
+    }
+
+    #wrap-foot .foot .list {
+        margin-top: 10px !important;
+    }
+
+    body #wrap-foot .foot .list a {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+    #wrap-foot .foot .copy {
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    body .contant .wallets {
+        text-align: center;
+    }
+
+    body .contant .wallets h3 {
+        padding-left: 30px;
+        background-size: 24px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    body span#code, body span#code img {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    body #bug {
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+}
+
+#hearter-phone {
+    display: none;
+}
+
+/*移动头部默认隐藏*/
+#backtop {
+    display: none;
+}
+
+/*PC端backtop按钮默认隐藏*/
+
+#wrap-header {
+    height: 160px;
+    background: url("../images/index/bgbanner.png") no-repeat left top;
+    background-size: 100% 100%;
+}
+
+.header {
+    padding: 0 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo {
+    padding-top: 33px;
+}
+
+.header .right {
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header .right .nav {
+}
+
+.header .right .nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right .nav > ul > li {
+    margin-right: 38px;
+    position: relative;
+}
+
+.right .nav > ul > li a {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 26px;
+    background: url("../images/index/icon1.png") no-repeat left center;
+}
+
+.right .nav > ul > li a span {
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    color: #fff;
+}
+
+.right .nav > ul > li a span.dow {
+    padding-right: 15px;
+    background: url("../images/index/3.png") no-repeat right center;
+}
+
+.right .nav > ul > li:nth-child(2) a {
+    background: url("../images/index/icon2.png") no-repeat left center;
+}
+
+.right .nav > ul > li:nth-child(3) a {
+    background: url("../images/index/icon3.png") no-repeat left center;
+}
+
+.right .nav > ul > li:nth-child(4) a {
+    background: url("../images/index/icon4.png") no-repeat left center;
+}
+
+.right .nav > ul > li:nth-child(5) a {
+    background: url("../images/index/up2.png") no-repeat left center;
+}
+
+/*下拉菜单*/
+.right .nav > ul ul.chil {
+    display: none;
+    position: absolute;
+    left: -28px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.right .nav > ul ul.chil li {
+}
+
+.right .nav > ul ul.chil li a {
+    padding-left: 20px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.right .nav > ul ul.chil li a span {
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.right .nav > ul ul.chil li:hover a span {
+    color: #3377ff;
+}
+
+.right .nav > ul ul.chil.chil1 li:nth-child(1) a {
+    background: url("../images/index/icond.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil1 li:nth-child(2) a {
+    background: url("../images/index/iconc.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 {
+    left: -48px;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(1) a {
+    background: url("../images/index/icona.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(2) a {
+    background: url("../images/index/iconb.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(3) a {
+    background: url("../images/index/iconb2.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil1 li:nth-child(1):hover a {
+    background: url("../images/index/icondd.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil1 li:nth-child(2):hover a {
+    background: url("../images/index/iconcc.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 {
+    left: -48px;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(1):hover a {
+    background: url("../images/index/iconaa.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(2):hover a {
+    background: url("../images/index/iconbb.png") no-repeat left center;
+}
+
+.right .nav > ul ul.chil.chil2 li:nth-child(3):hover a {
+    background: url("../images/index/iconb22.png") no-repeat left center;
+}
+
+.header .right .photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header .right .photo .tou {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header .right .guojia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 42px;
+}
+
+.header .right .guojia > div {
+    margin-left: 20px;
+}
+
+.contant {
+}
+
+.contant .wallets {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contant .wallets h3 {
+    height: 98px;
+    line-height: 98px;
+    padding-left: 44px;
+    background: url("../images/index/icon$.png") no-repeat left center;
+    font-size: 26px;
+}
+
+.contant .wallets .wenzi {
+    margin-top: 25px;
+}
+
+.contant .wallets .wenzi > div {
+    text-align: center;
+}
+
+.contant .wallets .wenzi > div:first-child {
+    height: 75px;
+    line-height: 75px;
+    font-size: 24px;
+}
+
+.contant .wallets .wenzi > div span {
+    background: #e6e6e6;
+    padding: 4px;
+    color: #333;
+}
+
+.contant .wallets .wenzi > div:nth-child(3) {
+    height: 86px;
+    line-height: 86px;
+    font-size: 24px;
+}
+
+.contant .bitcoin {
+    background: #f5f5f5;
+    padding: 66px 0
+}
+
+.contant .bitcoin .box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contant .bitcoin .box ul {
+}
+
+.contant .bitcoin .box > ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.contant .bitcoin .box > ul li > div {
+    height: 100px;
+    line-height: 100px;
+    width: 19%;
+    background: #fff;
+}
+
+.contant .bitcoin .box > ul li > div:first-child {
+    width: 24%;
+}
+
+.contant .bitcoin .box > ul li:first-child > div {
+    font-size: 20px;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    background: #3377ff;
+}
+
+.contant .bitcoin .box > ul li:last-child {
+    box-shadow: 1px 1.5px #e3e3e3;
+    box-sizing: border-box;
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+}
+
+.contant .bitcoin .box > ul li:last-child > div {
+    background: #fafafa;
+    line-height: inherit;
+    padding: 4px 0;
+}
+
+.box > ul li:last-child > div strong {
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.box > ul li:last-child > div .num {
+    color: #3377ff;
+}
+
+.bitcoin .box > ul li .btnn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bitcoin .box > ul li .btnn span {
+    height: 98px;
+    line-height: 98px;
+    cursor: pointer;
+    color: #3377ff;
+    font-size: 30px;
+    margin-left: 12px;
+}
+.bitcoin .box>ul li .wallet_warp{}
+.bitcoin .box>ul li .wallet_warp .wallet_flag_img{
+    margin-left: 25px;
+    width: 24px;
+    height:24px;
+}
+.bitcoin .box > ul li .btnn a {
+    margin-left:5px;
+}
+.bitcoin .box > ul li .btnn a:hover{
+    color: #428bca;
+}
+
+.bitcoin .box > ul li .doww {
+}
+
+.bitcoin ul li .doww > span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 144px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-left: 38px;
+    background: url("../images/index/la.png") no-repeat 101px center;
+}
+
+/**/
+
+/*下拉bit*/
+.bitcoin .doww span > ul {
+    background: #fff;
+    z-index: 8000;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.bitcoin .doww span > ul li {
+}
+
+.bitcoin .doww span > ul li span {
+    display: inline-block;
+    width: 142px;
+    padding-left: 70px;
+    background: url("../images/index/bit2.png") no-repeat 15px center;
+    background-size: 24px;
+}
+
+.box > ul li:nth-child(3) .doww span > ul li span {
+    background: url("../images/index/bit.png") no-repeat 15px center;
+    background-size: 24px;
+}
+
+.box > ul li:nth-child(6) .doww span > ul li span {
+    background: url("../images/index/bit.png") no-repeat 15px center;
+    background-size: 24px;
+}
+
+#wrap-foot {
+    padding-top: 65px;
+}
+
+#wrap-foot .foot {
+    border-top: 1px solid #e6e6e6;
+    padding-bottom: 24px;
+}
+
+#wrap-foot .foot .list {
+    margin-top: 32px;
+    text-align: center;
+}
+
+#wrap-foot .foot .list a {
+    color: #747474;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 22px;
+}
+
+#wrap-foot .foot .copy {
+    color: #a1a1a1;
+    text-align: center;
+}
+
+/*移动端头部样式*/
+#wrap-content #content{ }
+#hearter-phone{ border-bottom: 1px solid #ccc; position: relative; height: 48px; width: 100%; background: #fff; box-sizing: border-box;}
+#hearter-phone .rightlogo{ padding-left: 10px; padding-top: 2px;}
+#hearter-phone .leftbtn{ position: absolute; right: 24px; top: 15px;}
+#hearter-phone .rightlogo{}
+#hearter-phone .rightlogo img{ width: 120px; margin-top: 15px;}
+/*导航*/
+
+#hearter-phone .listphon{ border-bottom: 1px solid #ccc; display: none; padding-bottom: 014px; z-index: 999; color: #fff; background:#FFFFFF; position: absolute; top:48px; width: 100%;}
+#hearter-phone .listphon>ul>li.activer{ background:#3377ff; border-bottom: 1px solid #E9E9E9; border-top: 1px solid #E9E9E9; }
+#hearter-phone .listphon>ul>li.activer>a{ border-top: none;color:#fff;}
+#hearter-phone .listphon ul>li{   width: 100%;}
+#hearter-phone .listphon>ul>li>a{color: #969696; border-bottom: 1px solid #E9E9E9; margin-left: 10%; font-size: 12px; display: block; height: 44px;line-height: 44px; margin-right:10%;position: relative;padding-left: 26px; }
+
+#hearter-phone .listphon>ul>li:nth-child(1)>a{ background: url("../images/index/icon00.png") no-repeat left center;}
+#hearter-phone .listphon>ul>li:nth-child(2)>a{ background: url("../images/index/icon11.png") no-repeat left center;}
+#hearter-phone .listphon>ul>li:nth-child(3)>a{background: url("../images/index/icon22.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(4)>a{background: url("../images/index/icon33.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(5)>a{background: url("../images/index/icon44.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(6)>a{background: url("../images/index/up.png") no-repeat left center; }
+
+#hearter-phone .listphon>ul>li:nth-child(1).activer>a{ background: url("../images/index/icon0.png") no-repeat left center;}
+#hearter-phone .listphon>ul>li:nth-child(2).activer>a{ background: url("../images/index/icon1.png") no-repeat left center;}
+#hearter-phone .listphon>ul>li:nth-child(3).activer>a{background: url("../images/index/icon2.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(4).activer>a{background: url("../images/index/icon3.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(5).activer>a{background: url("../images/index/icon4.png") no-repeat left center; }
+#hearter-phone .listphon>ul>li:nth-child(6).activer>a{background: url("../images/index/up2.png") no-repeat left center; }
+
+#hearter-phone .listphon>ul>li>a.down_1:after{content: "+";font-weight: normal;float:right;font-size:20px;position: absolute;right:0;}
+.animate:after{transform-origin:50% 50%;animation:rote 1s forwards;}
+@keyframes rote {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(45deg)}
+}
+#hearter-phone .listphon ul.down-nav{display:none;background: #FFFFFF;}
+#hearter-phone .listphon ul.down-nav>li{padding-left: 10%; font-size: 12px; display: block; height: 33px;line-height: 33px; margin-right:10%;}
+#hearter-phone .listphon ul.down-nav>li a{color:#969696;display: block; padding-left: 30px;}
+.listphon ul.down-nav>li.activer{background:#e5e5e5; }
+
+#hearter-phone .listphon ul.down-nav.a>li:nth-child(1) a{ background: url("../images/index/icond1.png") no-repeat 10px center;}
+#hearter-phone .listphon ul.down-nav.a>li:nth-child(2) a{ background: url("../images/index/iconc1.png") no-repeat 10px center;}
+#hearter-phone .listphon ul.down-nav.b>li:nth-child(1) a{ background: url("../images/index/icona1.png") no-repeat 10px center;}
+#hearter-phone .listphon ul.down-nav.b>li:nth-child(2) a{ background: url("../images/index/iconb1.png") no-repeat 10px center;}
+#hearter-phone .listphon ul.down-nav.b>li:nth-child(3) a{ background: url("../images/index/iconb02.png") no-repeat 10px center;}
+
+#hearter-phone .phon-bottom{  margin-left: 10%; margin-top: 16px;}
+#hearter-phone .phon-bottom>div{ width: 30%; text-align: center;}
+#hearter-phone .phon-bottom span{ height: 12px;line-height: 12px; font-size: 12px; font-variant: small-caps; margin-top: 3px; display: block;text-align: center;}
+
+
+
+/*移动端backtop按钮*/
+#backtop{  position: fixed; right:30px; bottom:40px;  }
+#backtop img{ width: 50px;height: 50px;}
+/*移动端backtop按钮结束*/
+
+/*loading*/
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+#loading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+
+
+
+
+
+

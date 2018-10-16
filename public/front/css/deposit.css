@@ -1,0 +1,49 @@
+@media (max-width: 1078px) {
+    body .contant .box>ul li .btnn a{ margin-left: 0!important;}
+}
+@media (max-width: 768px) {
+    body .contant  h4{ margin-left: 15px;}
+    body .contant .box{ width: 100%; overflow-y: scroll;}
+    body .contant .box>ul{ min-width: 1008px;}
+    body .contant .bitcoin .box>ul li>div:first-child{ width:18%!important; }
+    body .contant .bitcoin .box>ul li>div:nth-child(2){ width: 15%!important; }
+    body .contant .bitcoin .box>ul li>div:nth-child(3){ width: 20%!important; }
+    body .contant .bitcoin .box>ul li>div:nth-child(4){ width: 23%!important; }
+}
+
+
+.contant .bitcoin{ background: #f5f5f5; padding: 15px 0 62px 0; margin-top: 38px;}
+.magin0{ max-width: 1200px; margin: 0 auto;}
+.contant .bitcoin h4{ font-size: 26px; height: 72px; line-height: 72px; padding-left: 50px; background: url("../images/trade/coin3.png") no-repeat left center; }
+.contant .bitcoin .box{ }
+.contant .bitcoin .box ul li{ border-bottom: none; }
+.contant .bitcoin .box ul li b{ width:60px; text-align: center; display: inline-block; }
+.contant .bitcoin .box>ul li:last-child{ box-sizing: border-box; border:none }
+.contant .bitcoin .box>ul li:last-child>div{ background: #fff; padding:0; height: 100px; line-height: 100px; }
+.contant .bitcoin .box>ul li>div{ width: 15%; }
+.contant .bitcoin .box>ul li>div:first-child{ width: 18%; }
+.contant .bitcoin .box>ul li>div:nth-child(4){ width: 22%; }
+.contant .bitcoin .box>ul li>div.suc{ color: #10da01; }
+.contant .bitcoin .box>ul li>div.can{ color: #b0b0b0;}
+.contant .bitcoin .box>ul li>div.ong{ color: #3377ff }
+.contant .bitcoin .box>ul li>div.fai{ color: #ff0000; }
+
+.contant .bitcoin .box>ul .tran{ background: #fff; text-align: center; border-bottom: 1px solid #e6e6e6; padding-bottom: 20px;}
+.contant .bitcoin .box>ul .tran span{ }
+
+
+#wrap-foot{ padding-top: 42px;}
+
+.contant .bitcoin h4.withdrawal{ background: url("../images/trade/coin4.png") no-repeat left center; }
+
+/*如果显示没有数据*/
+/*.show{ display: none}*/
+
+/*没有数据，*/
+.hidd{ display: none}
+.hidd ul>li:nth-child(2){ background: #fff; padding-bottom: 58px;}
+.contant .bitcoin .box.hidd ul>li:last-child p{ text-align: center; width: 100%;  padding-top:195px; background: url("../images/trade/bgicon.png") no-repeat center center; }
+.hidd .disclamer{ color: #999; padding-top: 32px;font-style: italic; letter-spacing: 1px;  }
+.hidd .disclamer span{ font-weight:bold; font-size: 16px;  }
+.hidd .disclamer p{ line-height: 34px; }
+

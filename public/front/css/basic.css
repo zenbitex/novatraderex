@@ -1,0 +1,482 @@
+.contant .bitcoin{
+    margin-top:0;
+    padding:0;
+    box-sizing: content-box;
+    padding-bottom:62px;
+}
+.contant .basic h4{
+    background:url(../images/basic/basic.png) no-repeat 8px center;
+}
+.b_title{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.b_title p{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color:#fff5e0;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 10px;
+}
+.b_info{
+    display: flex;
+}
+/*左侧*/
+.setting-leftmenu a:hover{
+    color:#3377ff;
+}
+.setting-leftmenu {
+    color: #677686;
+    font-size: 14px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #e4e9ed;
+    width: 250px;
+    height: 368px;
+    margin-right: 10px;
+}
+.setting-leftmenu .menu-head{
+    color: #fff;
+    font-size: 22px;
+    padding:20px 0;
+    background: #3377ff;
+    border: 1px solid #3377ff;
+    text-align: center;
+}
+.setting-leftmenu .menu-head i{
+    font-size: 24px;
+    padding-right: 5px;
+}
+.setting-leftmenu .menu-title{
+    color: #494949;
+    font-size: 18px;
+    padding: 22px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.menu-c{
+    position: relative;
+    text-align: center;
+}
+.menu-item-cont{
+    overflow: hidden;
+    background: #fafafa;
+}
+.menu-item-cont .active{
+    color: #3377ff;
+}
+.menu-item{
+    padding: 14px 0;
+    font-size: 16px;
+    display: block;
+    color: #ababab;
+}
+.bt{
+    padding-bottom:0;
+}
+.setting-rightinfo{
+    flex: 1;
+}
+.setting-panel{
+    width: 100%;
+}
+.setting-panel .info_info{
+    background:#fff;
+}
+.info_info table{
+    width: 100%;
+}
+.info_info table tr{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.info_info table tr td{
+    min-width:300px;
+    padding-left:20px;
+}
+.info_info table tr td:nth-child(2){
+    padding-left:0px;
+}
+.info_info table tr:last-child {
+    border-bottom: 0;
+}
+.info_info table tr ul{
+    display: flex;
+}
+.info_info table tr ul li{
+    font-size: 18px;
+}
+.info_info table tr ul li:nth-child(1) {
+    margin-right:25px;
+}
+.info_info table tr ul li i{
+    font-size: 20px;
+    color: #626262;
+    cursor: pointer;
+}
+.setting-panel .safe-item{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+.ID_card i{
+    font-size: 25px;
+}
+.setting-panel .safe-item p{
+    margin-bottom:0;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.setting-panel .safe-item a{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #79a3ff;
+    font-size: 16px;
+    color: #79a3ff;
+    padding: 4px;
+}
+
+.modal .modal-content{
+    overflow: hidden;
+}
+.modal .modal-header{
+    background-color: #F0F0F0;
+}
+.modal .modal-header h4{
+    font-size:20px;
+}
+.modal .modal-footer{
+    border:0;
+}
+.modal input{
+    box-sizing: border-box;
+}
+#send_pass_error,#send_pin_error{
+    display: none;
+}
+
+/*auth*/
+.auth .setting-rightinfo .ID_card{
+    margin-top:0;
+}
+.auth .setting-rightinfo .safe-item{
+    border-bottom: 1px solid #e6e6e6;
+}
+.auth .id_card_info{
+    background: #fff;
+    padding: 20px;
+}
+.auth .form-group input{
+    box-sizing: border-box;
+    width: 75%;
+}
+.auth .form-group label{
+    font-size: 16px;
+}
+.auth .id_card_info ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.auth .id_card_info ul li{
+    width: 50%;
+}
+.auth .passport_info{
+    background: #fff;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.auth .phone{
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+.auth .phone_box{
+    width: 200px;
+    height: 150px;
+    display: block;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+    border:0;
+}
+.auth .images_upload{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    background-color: #eee;
+}
+.auth .images_upload label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+.auth .passport_phone i{
+    font-size: 66px;
+    color: #999999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.auth .passport_phone p{
+    font-size: 18px;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%,0);
+    white-space:nowrap;
+    z-index: 1;
+}
+.auth .passport_tips{
+    padding-left: 20px;
+}
+.auth .passport_tips h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.auth .passport_tips ul li{
+    font-size: 14px;
+    line-height: 24px;
+}
+#auth_sub{
+    font-size: 20px;
+    width:100%;
+    margin-top: 20px;
+}
+/*2fa*/
+.icon-yanzheng,.icon-guge,.icon-duanxintubiao{
+    font-size: 25px;
+}
+.fa_2 .setting-rightinfo .setting-panel .safe-item{
+    margin-top:0;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+.fa_2 .setting-rightinfo .setting-panel .safe-item .mask{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+}
+.fa_2 .setting-rightinfo .setting-panel .safe-item p{
+    flex: 1;
+}
+.fa_2 .setting-rightinfo .setting-panel .safe-item button{
+    font-size: 16px;
+}
+.fa_2 .authy_info,.fa_2 .sms_info,.fa_2 .google_info{
+    background: #fff;
+    padding: 20px;
+    display: none;
+}
+.fa_2 .authy_info ul li,.fa_2 .sms_info ul li{
+    width: 45%;
+}
+.fa_2 .authy_info ul li label,.fa_2 .sms_info ul li label{
+    font-size: 16px;
+}
+.fa_2 .authy_info ul li input,.fa_2 .sms_info ul li input{
+    box-sizing: border-box;
+}
+.fa_2 .authy_info button,.fa_2 .sms_info button,.fa_2 .google_info button{
+    font-size: 18px;
+}
+.fa_2 .authy_info .btn-nov,.fa_2 .sms_info .btn-nov,.fa_2 .google_info .btn-nov{
+    padding: 10px 12px;
+}
+.fa_2 .send_auth,.fa_2 .send_sms{
+    min-width: 177px;
+    background-color:#3377ff;
+    color: #fff;
+    border: 1px solid #3377ff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.fa_2 .send_auth:hover,.fa_2 .send_sms:hover{
+    background-color: rgba(51,119,255,0.9);
+}
+.fa_2 .authy_info .form-group,.fa_2 .sms_info .form-group{
+    margin-bottom: 20px;
+}
+.fa_2 .google_info .text{
+    font-size:14px;
+    margin-top:20px;
+}
+.fa_2 .google_info .gg_qrcode_warp{
+    display: flex;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.fa_2 .google_info .gg_qrcode_warp .gg_qrcode{
+    background: #f5f5f5;
+    margin-right: 10px;
+    padding:5px;
+}
+.fa_2 .google_info .gg_qrcode_warp .gg_qrcode_tips{
+    background:#f0f0f0;
+    flex:1;
+    padding:3px;
+}
+.gg_qrcode_tips .tips_info{
+    width: 100%;
+    height: 100%;
+    background:#f5f5f5;
+    padding:20px 10px;
+}
+.gg_qrcode_tips .tips_info a{
+    color:#5a8cfe;
+    text-decoration: underline!important;
+}
+.google_info  .qrcode-text{
+    margin-bottom:6px;
+}
+.google_info .qrcode-key{
+    color:#5a8cfe;
+}
+.google_info .google_text{
+    margin-top:20px;
+    font-size:18px;
+}
+.fa_2 .google_info .gg-code-input .gg-input{
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #b8c4ce;
+    color: #212121;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    caret-color: transparent;
+    -webkit-caret-color: transparent;
+    -moz-caret-color: transparent;
+    -ms-caret-color: transparent;
+    margin-right: 10px;
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.fa_2 .google_info .gg-code-input .gg-input:focus{
+    border: 1px solid #5a8cfe;
+}
+
+@media (max-width:1080px) {
+    .basic .b_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .basic .setting-leftmenu{
+        margin-right:0;
+    }
+    .basic .setting-rightinfo{
+        margin-top:20px;
+    }
+}
+@media (max-width:840px) {
+    .basic .setting-rightinfo .info_info table tr{
+        height:160px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .basic .setting-rightinfo .info_info table tr td{
+        height:34px;
+        line-height: 34px;
+    }
+    .info_info table tr td:nth-child(2){
+        padding-left:20px;
+    }
+    .basic .setting-leftmenu{
+        margin-right:10px;
+    }
+    .basic .setting-rightinfo{
+        margin-top:0px;
+    }
+    .auth .b_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .auth .id_card_info ul li{
+        min-width: 460px;
+    }
+    .auth .setting-leftmenu{
+        margin-right:0;
+    }
+    .auth .setting-rightinfo{
+        margin-top:20px;
+    }
+    .fa_2 .b_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fa_2 .setting-rightinfo{
+        min-width:580px;
+        margin-top:20px;
+    }
+}
+@media (max-width:578px) {
+    .basic .setting-leftmenu{
+        margin-right:0;
+    }
+    .basic .setting-rightinfo{
+        margin-top:20px;
+    }
+    .auth .id_card_info ul li{
+        min-width: 80%;
+    }
+    .auth .form-group input{
+        width:100%;
+    }
+    .auth .passport_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .auth .passport_tips{
+        margin-top:20px;
+    }
+    .fa_2 .setting-rightinfo{
+        min-width:100%;
+    }
+    .fa_2 .authy_info ul li, .fa_2 .sms_info ul li{
+        width: 100%;
+    }
+    .fa_2 .google_info .gg_qrcode_warp{
+        flex-wrap: wrap;
+    }
+    .fa_2 .google_info .tips_info{
+        min-width:300px;
+    }
+    .fa_2 .google_info .gg_qrcode_tips{
+        margin-top:20px;
+    }
+}
+@media (max-width:350px) {
+    .fa_2 .google_info .tips_info{
+        min-width:260px;
+    }
+}

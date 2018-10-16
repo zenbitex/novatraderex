@@ -1,0 +1,7 @@
+[19-Oct-2017 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php:513
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/bootstrap.php(46): Symfony\Polyfill\Mbstring\Mbstring::mb_strwidth('  [UnexpectedVa...', 'ASCII')
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(1087): mb_strwidth('  [UnexpectedVa...', 'ASCII')
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(646): Symfony\Component\Console\Application->stringWidth('  [UnexpectedVa...')
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(130): Symfony\Component\Console\Application->renderException(Object(UnexpectedValueException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(101): Symfony\Component\Console\Application->run(Object( in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 513

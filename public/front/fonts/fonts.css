@@ -1,0 +1,7 @@
+@font-face {font-family: 'OpenSansReg';
+    /*src: url('OpenSans-Regular-webfont.woff'),*/
+    /*url('OpenSans-Regular-webfont.woff') format('woff'); !* chrome、firefox 正文*!*/
+
+    src: url('sf-pro-display_regular.woff'),
+    url('sf-pro-display_regular.woff') format('woff'); /* chrome、firefox 正文*/
+}
